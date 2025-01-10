@@ -47,7 +47,7 @@ function upgrade() {
 }
 
 function passiveupgrade() {
-    if ((!passiveUpgradeActive && count >= 10) || x1 >= 1) {
+    if (!passiveUpgradeActive && count >= 10) {
         x1+=1
         passiveUpgradeActive = true;
         count -= 10;
