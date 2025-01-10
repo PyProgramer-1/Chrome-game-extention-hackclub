@@ -1,0 +1,10 @@
+{
+    "name": "Counting Extension",
+    "description": "Clicker game like cookie clicker",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+      "default_popup": "Counter.html",
+      "default_icon": "Money.png"
+    }
+  }
